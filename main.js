@@ -1,6 +1,6 @@
 function fizzBuzz(n) {
 
-for (var i=1; i <= 20; i++)
+for (var i=1; i <= n; i++)
 {
     if (i % 15 == 0)
         console.log("FizzBuzz");
